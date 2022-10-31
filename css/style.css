@@ -22,3 +22,49 @@
     display: center;
     font-size: 16px;
   }
+
+.First {
+  position: center;
+  border: none;
+  width: 20%;
+  text-align: center;
+  padding: 30px 30px;
+}
+
+/* Make the image responsive */
+.First img {
+  width: 50%;
+  border: none;
+  height: auto;
+  padding: 20px 20px;
+  display: center;
+  font-size: 25px;
+}
+.Second {
+  position: center;
+  border: none;
+  text-align: center;
+  width: 20%;
+  padding: 30px 30px;
+}
+
+/* Make the image responsive */
+.Second img {
+  width: 50%;
+  height: auto;
+  padding: 10px 10px;
+}
+.Third {
+  position: center;
+  border: none;
+  text-align: center;
+  width: 20%;
+  padding: 30px 30px;
+}
+
+/* Make the image responsive */
+.Third img {
+  width: 50%;
+  height: auto;
+  padding: 10px 10px;
+}
