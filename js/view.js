@@ -1,3 +1,3 @@
 $( document ).ready(function(){
-    $('header').load('view/topo.html');
+    $('header').load('topo.html');
 });
