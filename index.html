@@ -30,24 +30,29 @@
         <h2>Selecione uma opção:</h2>
 
     <div class="home-botoes-centrais">
-        <a href="empresas.html">
-            <button class="mdc-button mdc-button--raised">
-                <span class="mdc-button__label">Empresas</span>
-            </button>
+    
+        <a href="view/empresa.html" class="waves-effect waves-light btn-large">
+            Empresa
         </a>
-        <a href="servicos.html">
-            <button class="mdc-button mdc-button--raised">
-                <span class="mdc-button__label">Serviços</span>
-            </button>
+        <a href="view/servico.html" class="waves-effect waves-light btn-large">
+            Serviço
         </a>
+
     </div>
 
-    <footer>
-        <h5>Desenvolvido pelo Time Denver.</h5>
-    </footer>
+    <footer></footer>
 
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/view.js"></script>
+    <!--<script type="text/javascript" src="js/view.js"></script>-->
+
+    <script>
+
+        $( document ).ready(function(){
+            $('header').load('view/topo.html');
+            $('footer').load('view/rodape.html');
+        });
+
+    </script>
 
         
     </body>
