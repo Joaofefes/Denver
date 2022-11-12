@@ -1,75 +1,27 @@
 body{
-  font-family: 'Montserrat'; font-size:50px;
+  font-family: 'Montserrat';
 }
 
-
-.home-botoes-centrais{
-    text-align: center;
-    position: center;
+.epi-title{
+  text-align: center;
+  font-weight: bold;
 }
 
-.Empresas {
-    border: none;
-    color: white;
-    padding: 400px 490px;
-    text-align: center;
-    text-decoration: none;
-    display: center;
-    font-size: 16px;
-  }
+.epi-img{
+  max-width: 200px;
+  max-height: 200px;
+  align-items: center;
+}
+
+.epi-subtitle{
   
-  .Servicos {
-    border: none;
-    color: white;
-    padding: 125px 595px;
-    text-align: center;
-    text-decoration: none;
-    display: center;
-    font-size: 16px;
-  }
+}
 
-.First {
-  position: center;
-  border: none;
-  width: 20%;
+.epi-descricao{
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.epi-video{
   text-align: center;
-  padding: 30px 30px;
-}
-
-/* Make the image responsive */
-.First img {
-  width: 50%;
-  border: none;
-  height: auto;
-  padding: 20px 20px;
-  display: center;
-  font-size: 25px;
-}
-.Second {
-  position: center;
-  border: none;
-  text-align: center;
-  width: 20%;
-  padding: 30px 30px;
-}
-
-/* Make the image responsive */
-.Second img {
-  width: 50%;
-  height: auto;
-  padding: 10px 10px;
-}
-.Third {
-  position: center;
-  border: none;
-  text-align: center;
-  width: 20%;
-  padding: 30px 30px;
-}
-
-/* Make the image responsive */
-.Third img {
-  width: 50%;
-  height: auto;
-  padding: 10px 10px;
 }
