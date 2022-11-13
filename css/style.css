@@ -1,5 +1,11 @@
 body{
   font-family: 'Montserrat';
+  background-color: #e1bee7;
+}
+
+section{
+  background-color: #fafafa;
+  padding:1px;
 }
 
 .epi-title{
