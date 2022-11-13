@@ -8,9 +8,21 @@ header{
 }
 
 section{
+  /*
   background-color: #fafafa;
+  */
+  background-color: #eceff1;
   padding:1px;
   padding-bottom:25px;
+}
+
+.card{
+  height: 170px;
+  padding: 15px;
+}
+
+.card-image{
+  width: 140px;
 }
 
 .index-info{
