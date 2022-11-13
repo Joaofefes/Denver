@@ -24,6 +24,10 @@ section{
   margin-bottom:-6px;
 }
 
+#sobre p{
+  text-align:justify;
+}
+
 .bt-ini{
   margin:5px;
 }
