@@ -3,10 +3,23 @@ body{
   background-color: #e1bee7;
 }
 
+header{
+  padding:10px;
+}
+
 section{
   background-color: #fafafa;
   padding:1px;
   padding-bottom:25px;
+}
+
+.index-info{
+  text-align:justify;
+  text-indent: 30px;
+}
+
+.bt-ini{
+  margin:5px;
 }
 
 .epi-title{
