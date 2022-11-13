@@ -16,6 +16,12 @@ section{
 .index-info{
   text-align:justify;
   text-indent: 30px;
+  padding-top: 30px;
+}
+
+.index-famepilogo{
+  height: 20px;
+  margin-bottom:-6px;
 }
 
 .bt-ini{

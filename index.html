@@ -10,7 +10,7 @@
     <meta name="author" content="Equipe Denver">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="website icon" src="img/denvericon.png">
+    <link rel="website icon" type="png" href="img/denvericon.png">
 
     <!--MATERIALIZE CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -32,9 +32,6 @@
         <section>
 
             <div class="container center">
-
-                <!--
-                <h5 style="text-align:justify;">O que é</h5>-->
 
                 <p class="index-info">
                     Site organizacional para que o colaborador tenha informação de quais equipamentos
@@ -75,7 +72,7 @@
             $('footer').load('view/rodape.html');
         });
 
-        //CONSERTA O ERRO DO LOGO SUMIR NO "INDEX no GitHub"
+        //CONSERTA O ERRO DO LOGO SUMIR NO "INDEX e links incorretos no GitHub"
         $( window ).on("load",function () {
             $(".brand-logo").attr("href", "#");
             $(".brand-logo img").attr("src", "img/denverlogo_preto.png");
