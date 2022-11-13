@@ -4,11 +4,13 @@
 <head> 
     <meta charset="UTF-8">
 
-    <title>Equipamentos de Segurança</title>
-    <meta name="description" content="Denver EPI's web app for manufacturers">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Denver Team">
+    <title>Denver EP</title>
+    <meta name="description" content="quais equipamentos deve usar em cada local da empresa e também em cada tipo de serviço realizado">
+    <meta name="keywords" content="HTML, CSS, JavaScript, JQuery, MaterilizeCSS">
+    <meta name="author" content="Equipe Denver">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="website icon" src="img/denvericon.png">
 
     <!--MATERIALIZE CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -25,7 +27,7 @@
 
     <body>
 
-        <header></header>
+        <header class="index"></header>
 
         <section>
 
@@ -65,13 +67,18 @@
     <footer class="page-footer purple lighten-4"></footer>
 
     <script type="text/javascript" src="js/jquery.js"></script>
-    <!--<script type="text/javascript" src="js/view.js"></script>-->
 
     <script>
 
         $( document ).ready(function(){
             $('header').load('view/topo.html');
             $('footer').load('view/rodape.html');
+        });
+
+        //CONSERTA O ERRO DO LOGO SUMIR NO "INDEX no GitHub"
+        $( window ).on("load",function () {
+            $(".brand-logo").attr("href", "#");
+            $(".brand-logo img").attr("src", "img/denverlogo_preto.png");
         });
 
     </script>
