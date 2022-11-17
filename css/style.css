@@ -20,10 +20,13 @@ section{
 .card{
   height: 170px;
   padding: 15px;
+  border-radius: 10px;
 }
 
 .card-image{
-  width: 140px;
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
 }
 
 .index-info{
