@@ -1,7 +1,9 @@
 <?xml version='1.0' ?>
     <doc>
-        <titulo>EPI: Bota de Segurança</titulo>
-        <imagem>botadeseg.jpg</imagem>
+        <tipo>EPI</tipo>
+        <titulo>Capacete</titulo>
+        <imagem>capacete.webp</imagem>
+        <resumo>Proteção da cabeça contra impactos e ferimentos por queda de materiais.</resumo>
 
         <sec>
             <subtitulo>O que é</subtitulo>
@@ -21,8 +23,16 @@
             </descricao>
         </sec>
         
-        <vid>
+        <video>
             <subtitulo>Vídeo demonstrativo</subtitulo>
             <codigovideo>hIjdqPHAaRw</codigovideo>
-        </vid>
+        </video>
+
+        <links> <!--Links se necessários-->
+            <interno></interno>
+            <interno></interno>
+
+            <externo></externo>
+            <externo></externo>
+        </links>
     </doc>

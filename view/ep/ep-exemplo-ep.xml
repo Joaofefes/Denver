@@ -1,0 +1,39 @@
+<?xml version='1.0' ?>
+    <doc>
+        <tipo>EPI</tipo> <!--EPI ou EPC-->
+        <titulo>Equipamento de Exemplo</titulo> <!--NOME DO EQUIPAMENTO (Ex: Capacete Classe A Tipo II)-->
+        <imagem>exemplo-ep.png</imagem> <!--somente nome do aquivo e a extensão como está salvo na pasta "img"-->
+        <resumo>Texto de resumo do equipamento pra lista de cards.</resumo>
+
+        <sec>
+            <subtitulo>O que é</subtitulo> <!--Título da seção (altere se necessário)-->
+            <descricao> <!--Conteúdo da seção (pode quebrar linha para melhor visualização no XML)-->
+                Texto de exemplo onde deve constar a descrição do que é este equipamento em específico
+                para que o colaborador aprenda os detalhes necessários.
+            </descricao>
+        </sec>
+
+        <sec>
+            <subtitulo>Importância</subtitulo>
+            <descricao>
+                Texto de exemplo onde deve constar a descrição da importância do uso deste equipamento.
+            </descricao>
+        </sec>
+        
+        <video>
+            <subtitulo>Vídeo demonstrativo</subtitulo>
+            <!--Código do vídeo do Youtube
+                Exemplo: youtube.com/watch?v=w7MPFc0SDGE
+                pegue o código após o "?v=" sendo "hIjdqPHAaRw" -->
+            <codigovideo>UxLSIH9rfSs</codigovideo>
+        </video>
+
+        <links> <!--Links relacionados para recomendar se necessário-->
+            <interno>abafador</interno> <!--use para colocar o código de outros equipamentos relacionados-->
+            <interno>botadeseg</interno>
+
+            <!--use para colocar links de sites externos que não faça parte deste site-->
+            <externo>https://prometalepis.com.br/abafador-de-ruido-tudo-que-voce-precisa-saber/</externo>
+            <externo>https://prometalepis.com.br/vamos-falar-sobre-botina-de-seguranca/</externo>
+        </links>
+    </doc>

@@ -1,7 +1,9 @@
 <?xml version='1.0' ?>
     <doc>
-        <titulo>EPI: Botina</titulo>
+        <tipo>EPI</tipo>
+        <titulo>Botina</titulo>
         <imagem>botina.webp</imagem>
+        <resumo>Proteger os pés do usuário contra eventuais acidentes de trabalho.</resumo>
 
         <sec>
             <subtitulo>O que é</subtitulo>
@@ -21,8 +23,16 @@
             </descricao>
         </sec>
         
-        <vid>
+        <video>
             <subtitulo>Vídeo demonstrativo</subtitulo>
             <codigovideo>hIjdqPHAaRw</codigovideo>
-        </vid>
+        </video>
+
+        <links> <!--Links se necessários-->
+            <interno></interno>
+            <interno></interno>
+            
+            <externo></externo>
+            <externo></externo>
+        </links>
     </doc>

@@ -4,11 +4,11 @@ $(window).ready(function(){
 });
 
 
-function lerXML(parametro){
+function lerXML(ep){
 
     $.ajax({
         type: "GET",
-        url: "../view/source/equip-" + parametro + ".xml",
+        url: "../view/ep/ep-" + ep + ".xml",
         dataType: "xml",
 
         error: function (e) {
@@ -17,13 +17,16 @@ function lerXML(parametro){
         },
 
         success: function (response) {
-
+            
             // Adicionar nome
-            $("#equipamento").append( '<h3 class="ep-title">' + $(response).find('titulo').text() + '</h3>');
+            var tipo = $(response).find('tipo').text();
+            var titulo = $(response).find('titulo').text();
+            $("#equipamento").append( '<h3 class="ep-title">' + tipo + ": " + titulo + '</h3>');
 
             // Adiciona imagem
+            var imagem = $(response).find('imagem').text();
             $("#equipamento").append(    '<div style="text-align:center"> <img class="ep-img" src="../img/' +
-                                    $(response).find('imagem').text() + '"></div>');
+                                    imagem + '"></div>');
             
             $(response).find("sec").each(function () {
                 // Adicionar subtítulo
@@ -35,48 +38,44 @@ function lerXML(parametro){
                     $(this).find('descricao').text() + '</p>');
             });
 
-            // Adiciona subtítulo
-            $("#equipamento").append(   '<h4 class="ep-subtitle center">' +
-                                        $(response).find("vid").find("subtitulo").text() + '</h4>');
-            
-            // Adiciona vídeo
-            $("#equipamento").append(   '<div class="ep-video">' +
-                                        '<iframe width="385" height="217" src="https://www.youtube.com/embed/' +
-                                        $(response).find("vid").find("codigovideo").text() +
-                                        '" frameborder="0"' +
-                                        'allow="accelerometer; autoplay; clipboard-write; encrypted-media;' +
-                                        ' gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
+            // Teste se tem vídeo adicionado para poder mostrar na página
+            if($(response).find("video").find("codigovideo").text()){
+
+                // Adiciona subtítulo
+                $("#equipamento").append(  
+                    '<h4 class="ep-subtitle center">' +
+                    $(response).find("video").find("subtitulo").text() + '</h4>'
+                );
+                
+                // Adiciona vídeo
+                $("#equipamento").append( 
+                    '<div class="ep-video">' +
+                        '<iframe width="385" height="217" src="https://www.youtube.com/embed/' +
+                        $(response).find("video").find("codigovideo").text() +
+                        '" frameborder="0"' +
+                        'allow="accelerometer; autoplay; clipboard-write; encrypted-media;' +
+                        ' gyroscope; picture-in-picture" allowfullscreen></iframe>' + 
+                    '</div>'
+                );
+            };
+
+            // Adiciona links relacionados
+            $(response).find("links").each(function(){
+                if( $(this).find("interno").text() || $(this).find("externo").text() )
+                    {
+                        $('#equipamento').append('<h5 class="ep-subtitle">Links relacionados</h5><ol></ol>');
+
+                        $(this).find("interno").each(function(){
+                            var link = $(this).text();
+                            $('ol').append('<li><a href="ep.html?ep=' + link + '">' + link + '</a></li>');
+                        });
+                        $(this).find("externo").each(function(){
+                            var link = $(this).text();
+                            $('ol').append('<li><a href="' + link + '" target="_blank">' + link + '</a></li>');
+                        });
+                    };
+            });
             
         }
     });
 };
-
-/*
-function lerXML2(){
-
-
-    //Sample XML    
-    var xml = "<?xml version='1.0' ?><doc><person><name>Pedro</name><age>21</age></person><person><name>João</name><age>18</age></person></doc>";
-    
-    r = requests.get("../view/equip-capacete.xml");    
-
-    //Parse the givn XML
-    var xmlDoc = $.parseXML( r ); 
-        
-    var $xml = $( xmlDoc );
-    
-      // Find Person Tag
-    var $person = $xml.find("person");
-    
-    $person.each(function(){
-        
-        var name = $(this).find('name').text(),
-            age = $(this).find('age').text();
-        
-        $("#ProfileList" ).append('<li>' +name+ ' - ' +age+ '</li>');
-        
-    });
-        
-        
-};
-*/
