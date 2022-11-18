@@ -3,7 +3,7 @@ Here you can find the source code for Denver EP
 
 ## Try Denver EP
 This project is available on GitHub Pages:
-https://joaofefes.github.io/Denver/
+https://joaofefes.github.io/denver/
 
 ## About Denver EP
 O aplicativo Denver EP é uma interface interativa para os colaboradores consultarem quais EPIs e EPCs devem usar em cada local ou serviço realizado dentro da empresa.
