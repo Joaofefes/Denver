@@ -30,8 +30,10 @@
             <subtitulo>Vídeo demonstrativo</subtitulo>
             <codigovideo>P49ohXbFScQ</codigovideo>
         </video>
-
+        
         <links> <!--Links se necessários-->
             <externo>https://prometalepis.com.br/abafador-de-ruido-tudo-que-voce-precisa-saber/</externo>
+            <externo>https://www.gov.br/trabalho-e-previdencia/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/seguranca-e-saude-no-trabalho/normas-regulamentadoras/nr-15-anexo-01.pdf</externo>
+            <externo>https://www.gov.br/trabalho-e-previdencia/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/seguranca-e-saude-no-trabalho/normas-regulamentadoras/nr-15-anexo-02.pdf</externo>
         </links>
     </doc>
