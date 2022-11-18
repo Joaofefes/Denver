@@ -1,25 +1,21 @@
 <?xml version='1.0' ?>
     <doc>
         <tipo>EPI</tipo>
-        <titulo>Luvas de Malha</titulo>
+        <titulo>Luva de Malha</titulo>
         <imagem>luvasdemalha.avif</imagem>
         <resumo>Proteção das mãos contra abrasão, farpas, pequenos cortes, etc.</resumo>
 
         <sec>
             <subtitulo>O que é</subtitulo>
             <descricao>
-                O Capacete de Segurança Aba Frontal PLT com Selo Inmetro Plastcor é
-                um equipamento eficiente para proteção e segurança contra impactos na
-                cabeça. Este capacete de segurança com aba frontal PLT é produzido em
-                polietileno de alta densidade e seu design de casco distribui
-                uniformemente o impacto.
+                As luvas de segurança são Equipamentos de Proteção Individual fundamentais em diversas atividades profissionais. Têm como objetivo proteger as mãos do trabalhador contra os riscos físicos, mecânicos, químicos e biológicos. Existem cerca de 10 tipos de Luvas de Segurança diferentes. Entre eles, a Luva de Malha.
             </descricao>
         </sec>
 
         <sec>
             <subtitulo>Importância</subtitulo>
             <descricao>
-                Exemplo de descrição.
+                Oferecem proteção contra abrasão, farpas, pequenos cortes, etc. A Luva de Malha é um Equipamento de Proteção Individual muito versátil, confortável e acessível.
             </descricao>
         </sec>
         
@@ -29,10 +25,6 @@
         </video>
 
         <links> <!--Links se necessários-->
-            <interno></interno>
-            <interno></interno>
-            
-            <externo></externo>
-            <externo></externo>
+            <externo>https://prometalepis.com.br/luva-de-malha-o-que-e-e-quando-utilizar/</externo>
         </links>
     </doc>
