@@ -1,0 +1,28 @@
+<?xml version='1.0' ?>
+    <doc>
+        <titulo>EPI: Capacete</titulo>
+        <imagem>capacete.webp</imagem>
+
+        <sec>
+            <subtitulo>O que é</subtitulo>
+            <descricao>
+                O Capacete de Segurança Aba Frontal PLT com Selo Inmetro Plastcor é
+                um equipamento eficiente para proteção e segurança contra impactos na
+                cabeça. Este capacete de segurança com aba frontal PLT é produzido em
+                polietileno de alta densidade e seu design de casco distribui
+                uniformemente o impacto.
+            </descricao>
+        </sec>
+
+        <sec>
+            <subtitulo>Importância</subtitulo>
+            <descricao>
+                Exemplo de descrição.
+            </descricao>
+        </sec>
+        
+        <vid>
+            <subtitulo>Vídeo demonstrativo</subtitulo>
+            <codigovideo>hIjdqPHAaRw</codigovideo>
+        </vid>
+    </doc>

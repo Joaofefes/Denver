@@ -48,26 +48,26 @@ section{
   margin:5px;
 }
 
-.epi-title{
+.ep-title{
   text-align: center;
   font-weight: bold;
 }
 
-.epi-img{
+.ep-img{
   max-width: 200px;
   max-height: 200px;
   align-items: center;
 }
 
-.epi-subtitle{
+.ep-subtitle{
   /*empty*/
 }
 
-.epi-descricao{
+.ep-descricao{
   text-indent: 30px;
   text-align: justify;
 }
 
-.epi-video{
+.ep-video{
   text-align: center;
 }
