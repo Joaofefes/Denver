@@ -44,6 +44,11 @@ section{
   text-align:justify;
 }
 
+.tela-descricao{
+  text-align: justify;
+  text-indent: 30px;
+}
+
 .bt-ini{
   margin:5px;
 }
