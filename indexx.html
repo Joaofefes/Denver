@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+<head> 
+    <meta charset="UTF-8">
+
+    <title>Denver EP</title>
+    <meta name="description" content="quais equipamentos deve usar em cada local da empresa e também em cada tipo de serviço realizado">
+    <meta name="keywords" content="HTML, CSS, JavaScript, JQuery, MaterilizeCSS">
+    <meta name="author" content="Equipe Denver">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="website icon" type="png" href="img/denvericon.png">
+
+    <!--MATERIALIZE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--DENVER IMPLEMENTATIONS-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <!--DENVER EXTRA CSS-->
+    <link rel="stylesheet" href="css/style.css">
+        
+</head>
+
+    <body>
+
+        <header class="index"></header>
+
+        <section>
+
+            <div class="container center">
+
+                <p class="index-info">
+                    Site organizacional para que o colaborador tenha informação de quais equipamentos
+                    deve usar em cada local da empresa e também em cada tipo de serviço realizado dentro 
+                    da empresa para garantir a melhor segurança do colaborador.
+                </p>
+
+                <h5>Selecione uma opção:</h5>
+            
+                <a href="view/local.html" class="waves-effect waves-light btn-large purple lighten-2 bt-ini">
+                    Local
+                </a>
+                <a disabled href="view/servico.html" class="waves-effect waves-light btn-large purple lighten-2 bt-ini">
+                    Serviço
+                </a>
+                
+                <h5>Aprenda sobre todos:</h5>
+
+                <a href="view/epi-todos.html" class="waves-effect waves-light btn-large purple lighten-2 bt-ini">
+                    EPI
+                </a>
+                <a disabled href="view/epc-todos.html" class="waves-effect waves-light btn-large purple lighten-2 bt-ini">
+                    EPC
+                </a>
+        
+            </div>
+
+        </section>
+
+    <footer class="page-footer purple lighten-4"></footer>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script>
+
+        $( document ).ready(function(){
+            $('header').load('view/topo.html');
+            $('footer').load('view/rodape.html');
+        });
+
+        //CONSERTA O ERRO DO LOGO SUMIR NO "INDEX e links incorretos no GitHub"
+        $( window ).on("load",function () {
+            $(".brand-logo").attr("href", "#");
+            $(".brand-logo img").attr("src", "img/denverlogo_preto.png");
+            $("#nav-local").attr("href", "view/local.html");
+            $("#nav-servico").attr("href", "view/servico.html");
+            $("#nav-sobre").attr("href", "#sobre");
+        });
+
+    </script>
+
+        
+    </body>
+</html>
