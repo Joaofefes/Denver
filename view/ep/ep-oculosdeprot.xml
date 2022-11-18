@@ -8,31 +8,24 @@
         <sec>
             <subtitulo>O que é</subtitulo>
             <descricao>
-                O Capacete de Segurança Aba Frontal PLT com Selo Inmetro Plastcor é
-                um equipamento eficiente para proteção e segurança contra impactos na
-                cabeça. Este capacete de segurança com aba frontal PLT é produzido em
-                polietileno de alta densidade e seu design de casco distribui
-                uniformemente o impacto.
+                O Óculos de Proteção é um equipamento que serve para proteger os olhos do trabalhador contra diversos tipos de risco que o assolam no ambiente de trabalho. No caso da região ocular, os riscos podem ser biológicos, físicos e químicos.
             </descricao>
         </sec>
 
         <sec>
             <subtitulo>Importância</subtitulo>
             <descricao>
-                Exemplo de descrição.
+                O Óculos de Proteção serve unicamente para proteger os olhos dos trabalhadores contra diversos tipos de risco. Desde micróbios, bactérias e vírus, até partículas volantes que podem atingir a região dos olhos do trabalhador.
             </descricao>
         </sec>
         
         <video>
             <subtitulo>Vídeo demonstrativo</subtitulo>
-            <codigovideo>hIjdqPHAaRw</codigovideo>
+            <codigovideo>1I3c_3icG7c</codigovideo>
         </video>
 
         <links> <!--Links se necessários-->
-            <interno></interno>
-            <interno></interno>
-            
-            <externo></externo>
-            <externo></externo>
+            <externo>https://prometalepis.com.br/oculos-e-epi-veja-as-funcionalidades-do-oculos-de-protecao/</externo>
+            <externo>https://www.gov.br/trabalho-e-previdencia/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/seguranca-e-saude-no-trabalho/ctpp-nrs/norma-regulamentadora-no-6-nr-6</externo>
         </links>
     </doc>
