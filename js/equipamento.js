@@ -30,7 +30,7 @@ function lerXML(ep){
             
             $(response).find("sec").each(function () {
                 // Adicionar subtítulo
-                $("#equipamento").append( '<h4 class="ep-subtitle">' +
+                $("#equipamento").append( '<h4 class="ep-subtitulo">' +
                         $(this).find('subtitulo').text() + '</h4>');
 
                 // Adicionar descrição
@@ -43,7 +43,7 @@ function lerXML(ep){
 
                 // Adiciona subtítulo
                 $("#equipamento").append(  
-                    '<h4 class="ep-subtitle center">' +
+                    '<h4 class="ep-subtitulo center">' +
                     $(response).find("video").find("subtitulo").text() + '</h4>'
                 );
                 
