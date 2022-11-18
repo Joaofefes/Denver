@@ -20,6 +20,9 @@
 
     <!--DENVER EXTRA CSS-->
     <link rel="stylesheet" href="../css/style.css">
+
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/card-ep.js"></script>
 </head>
 
     <body>
@@ -28,8 +31,20 @@
           <div class="container">
             <p style="padding-left:15px;padding-bottom:15px;"><a href="local.html">← Página anterior</a></p>
             <h5 style="padding-left:15px;">Selecione um EPI:</h5> <!--trocar por DIV e usar padding da SECTION ou .container-->
-            <div class="row">
+            <div class="row" id="card-ep">
                 
+              <script>
+                card_ep("exemplo-ep");
+                card_ep("capacete");
+                card_ep("luvasdemalha");
+                card_ep("oculosdeprot");
+                card_ep("abafador");
+                card_ep("botina");
+                // Comentar oculta o equipamento
+                //card_ep("botadeseg");
+              </script>
+
+              <!--
                 <div class="col s12 m12 l6">
                     <a class="grey-text text-darken-4" href="ep.html?ep=">
                       <div class="card horizontal valign-wrapper">
@@ -103,15 +118,14 @@
                       </div>
                     </a>
                   </div>
-
+                  -->
 
             </div>
           </div>
         </section>
 
     <footer class="page-footer purple lighten-4"></footer>
-    
-    <script type="text/javascript" src="../js/jquery.js"></script>
+
     <script type="text/javascript" src="../js/view.js"></script>
         
     </body>
