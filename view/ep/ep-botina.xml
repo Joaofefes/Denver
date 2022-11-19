@@ -1,18 +1,14 @@
 <?xml version='1.0' ?>
     <doc>
         <tipo>EPI</tipo>
-        <titulo>Botina</titulo>
+        <titulo>Botina de Segurança</titulo>
         <imagem>botina.webp</imagem>
         <resumo>Proteger os pés do usuário contra eventuais acidentes de trabalho.</resumo>
 
         <sec>
             <subtitulo>O que é</subtitulo>
             <descricao>
-                O Capacete de Segurança Aba Frontal PLT com Selo Inmetro Plastcor é
-                um equipamento eficiente para proteção e segurança contra impactos na
-                cabeça. Este capacete de segurança com aba frontal PLT é produzido em
-                polietileno de alta densidade e seu design de casco distribui
-                uniformemente o impacto.
+                A botina de segurança serve para proteger os pés do usuário contra eventuais acidentes de trabalho.
             </descricao>
         </sec>
 
