@@ -71,10 +71,6 @@ section{
   align-items: center;
 }
 
-.ep-subtitulo{
-  /*empty*/
-}
-
 .ep-descricao{
   text-indent: 30px;
   text-align: justify;
