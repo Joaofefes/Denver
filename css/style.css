@@ -17,11 +17,6 @@ section{
   padding-bottom:25px;
 }
 
-footer{
-  position: absolute;
-  bottom: 0;
-}
-
 .card{
   margin: 6px;
   margin-left: -6px;
